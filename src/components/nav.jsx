@@ -1,27 +1,30 @@
-const nav = () => {
+import React from "react";
+import { Link } from "react-router-dom";
+
+export const Nav = () => {
     return (
         <>
             <ul>
                 <li>
-                    <Link to="/">welcome</Link>
+                    <Link to="/">Welcome</Link>
                 </li>
                 <li>
-                    <Link to="/orders">orders</Link>
+                    <Link to="/Orders">Orders</Link>
                 </li>
                 <li>
-                    <Link to="/kitchen">kitchen</Link>
+                    <Link to="/Kitchen">Kitchen</Link>
                 </li>
                 <li>
-                    <Link to="/neworder">newOrder</Link>
+                    <Link to="/Neworder">NewOrder</Link>
                 </li>
                 <li>
-                    <Link to="/chooseorder">chooseOrder</Link>
+                    <Link to="/Chooseorder">ChooseOrder</Link>
                 </li>
                 <li>
-                    <Link to="/breakfast">breakfast</Link>
+                    <Link to="/Breakfast">Breakfast</Link>
                 </li>
                 <li>
-                    <Link to="/food">food</Link>
+                    <Link to="/Food">Food</Link>
                 </li>
             </ul>
         </>

@@ -1,3 +1,3 @@
-export const chooseorder = () => {
+export const Chooseorder = () => {
   return <div>chooseOrder</div>
 };
