@@ -29,7 +29,8 @@ body {
   top: 82px;
 }
 
-.inputs {
+.inputs,
+.tableInputs {
   width: 619px;
   height: 498px;
   background: #C996E5;
@@ -40,7 +41,8 @@ body {
   flex-direction: column;
 }
 
-#user {
+#user,
+#table {
   width: 217px;
   height: 79px;
 
@@ -60,7 +62,8 @@ body {
   border-radius: 50px;
 }
 
-#password {
+#password,
+#hour {
 
   width: 322px;
   height: 79px;
@@ -80,7 +83,8 @@ body {
   border-radius: 50px;
 }
 
-.logIn {
+.logIn,
+.createOrder {
 
 
   font-family: 'Actor';
@@ -100,5 +104,59 @@ body {
   background: rgba(147, 80, 178, 0.59);
   border: 1px solid rgba(147, 80, 178, 0.59);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+.options {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.toBreakfast {
+  position: absolute;
+  width: 581px;
+  height: 182px;
+  left: 306px;
+  top: 175px;
+
+  background: #FFE6E8;
+  border-radius: 50px;
+
+  box-sizing: border-box;
+  font-family: 'Actor';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 96px;
+  text-align: center;
+
+
+  color: #B16DDC;
+
+  border: 1px solid #B16DDC;
+}
+
+.toFood {
+  position: absolute;
+  width: 581px;
+  height: 182px;
+  left: 306px;
+  top: 454px;
+
+  font-family: 'Actor';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 96px;
+  text-align: center;
+
+  color: #B16DDC;
+
+  border: 1px solid #B16DDC;
+
+  background: #FFE6E8;
   border-radius: 50px;
 }
